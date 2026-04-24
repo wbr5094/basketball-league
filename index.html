@@ -1,47 +1,14 @@
 <!doctype html>
 <html lang="en">
-
 <head>
-  <base href="/">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="Description" content="Demonstration for basketball-league">
-
-  <style>
-    :root, html, body {
-      margin: var(--ddd-spacing-0);
-      padding: var(--ddd-spacing-0);
-    }
-    #demo {
-      margin: var(--ddd-spacing-2);
-    }
-    basketball-league {
-      margin: var(--ddd-spacing-2);
-      border: var(--ddd-border-md);
-      border-radius: var(--ddd-radius-lg);
-    }
-    basketball-league:hover {
-      box-shadow: var(--ddd-boxShadow-sm);
-    }
-    #example {
-      --basketball-league-font-size: var(--ddd-font-size-l);
-      background-color: var(--ddd-accent-2);
-      color: var(--ddd-primary-17);
-    }
-  </style>
-  <title>basketball-league</title>
+  <title>Billy's Basketball League</title>
 </head>
 
 <body>
-  <div id="demo">
-    <h1>basketball-league</h1>
-    <!-- this is going to do whatever the tag's defaults are -->
-    <h2>Default</h2>
-    <basketball-league></basketball-league>
-    <h2>Slot usage</h2>
-    <basketball-league data-accent="2" data-primary="17"><div>Sample slot content</div></basketball-league>
-    <h2>Property usage</h2>
-    <basketball-league id="example" title="Sample property title"></basketball-league>
-  </div>
+
+  <h1>Billy's Basketball League</h1>
+  <basketball-league></basketball-league>
   <script type="module" src="./basketball-league.js"></script>
 </body>
+</html>
