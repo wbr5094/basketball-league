@@ -1,0 +1,9 @@
+{
+  "games": [
+    { "date": "2026-04-05", "home": "Ducks", "away": "Toucans", "played": false },
+    { "date": "2026-04-07", "home": "Flamingos", "away": "Gophers", "played": false },
+    { "date": "2026-04-10", "home": "Ducks", "away": "Flamingos", "played": false },
+    { "date": "2026-04-12", "home": "Toucans", "away": "Gophers", "played": false },
+    { "date": "2026-04-15", "home": "Ducks", "away": "Gophers", "played": true, "score": "88-72" }
+  ]
+}
