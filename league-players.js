@@ -16,7 +16,7 @@ export class LeaguePlayers extends LitElement {
     }
 
     .card {
-        background: #102a54;
+        background: var(--ddd-theme-default-nittanyNavy);
         border-radius: 12px;
         overflow: hidden;
         display: flex;

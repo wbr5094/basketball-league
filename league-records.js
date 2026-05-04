@@ -16,29 +16,25 @@ export class LeagueRecords extends LitElement {
     table {
       width: 100%;
       border-collapse: collapse;
-      background: #102a54;
+      background: var(--ddd-theme-default-nittanyNavy);
       border-radius: 8px;
       overflow: hidden;
     }
 
     th {
-      background: #1e90ff;
+      background: var(--ddd-theme-default-beaverBlue);
       padding: 12px;
       text-align: left;
     }
 
     td {
       padding: 12px;
-      border-bottom: 1px solid #1e4ea0;
+      border-bottom: 1px solid var(--ddd-theme-default-beaver70);
     }
 
     tr:hover {
-      background: #1e4ea0;
+      background: var(--ddd-theme-default-beaver80);
     }
-    .Ducks { color: orange; }
-    .Toucans { color: yellow; }
-    .Flamingos { color: pink; }
-    .Gophers { color: lightgreen; }
   `;
 
   render() {

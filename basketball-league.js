@@ -27,7 +27,7 @@ static properties = {
     :host {
       display: block;
       min-height: 100vh;
-      background-color: #0b1f3a;
+      background-color: var(--ddd-theme-default-nittanyNavy);
       font-family: Arial, sans-serif;
       color: white;
     }
@@ -36,9 +36,9 @@ static properties = {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background-color: #102a54;
+      background-color: var(--ddd-theme-default-nittanyNavy);
       padding: 20px 40px;
-      border-bottom: 2px solid #071ecfdb;
+      border-bottom: 2px solid var(--ddd-theme-default-beaver80);
     }
     
     .logo {
@@ -56,7 +56,7 @@ static properties = {
     }
 
     .menu-item button {
-      background-color: #1e90ff;
+      background-color: var(--ddd-theme-default-beaverBlue);
       color: white;
       border: none;
       padding: 10px 16px;
@@ -66,14 +66,14 @@ static properties = {
     }
 
     .menu-item button:hover {
-      background: #3aa0ff;
+      background: var(--ddd-theme-default-beaverBlue);
     }
 
     .dropdown {
       display: none;
       position: absolute;
       top: 100%;
-      background-color: #102a54;
+      background-color: var(--ddd-theme-default-beaverBlue);
       padding: 8px;
       border-radius: 6px;
     }
@@ -161,8 +161,8 @@ static properties = {
           <button data-page="players" @click=${this.changePage}>
         Top Players  
         </button>
-        <button> Player Stats </button>
-        <button> Rosters </button>
+        <button> Team Rosters </button>
+        <button> League Leaders </button>
         </div>
       </div>
     </nav>
